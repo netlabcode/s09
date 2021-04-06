@@ -276,6 +276,12 @@ def emptyNet():
     info( net[ 's18m1' ].cmd( 'python3.6 as18gdb.py &amp' ) )
     info( net[ 's23m1' ].cmd( 'python3.6 as23gdb.py &amp' ) )
 
+    time.sleep(2)
+
+    info( net[ 's09m1' ].cmd( 'python3.6 as09gcc.py &amp' ) )
+    info( net[ 's18m1' ].cmd( 'python3.6 as18gcc.py &amp' ) )
+    info( net[ 's23m1' ].cmd( 'python3.6 as23gcc.py &amp' ) )
+
 
 
 
